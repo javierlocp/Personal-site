@@ -15,6 +15,11 @@ My primary goals:
 
 ## Checklist
 - [x] Initiate React project via Vite
+- [ ] Learn React
+  - [x] Basic principles
+  - [x] Folder structures
+  - [ ] Components and Props 👈 I am currently here!
+  - [ ] Best practices
 - [ ] Install dependencies:
   - [ ] Tailwind
   - [ ] React Router Dom
