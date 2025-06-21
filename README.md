@@ -1,12 +1,21 @@
-# React + Vite
+# This is portfolio site build by Javier Lo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Below are the tech stack used for this site. Note that TypeScript is not used as I've decided that it is not needed for this project.
+- Vite
+- React
+- JavaScript
+- Tailwind
 
-Currently, two official plugins are available:
+## Goals
+My primary goals: 
+- To learn modern way of web development (It's been a decade since I last touched`<code>`).
+- With the advancement of AI in software development, I figured it'll be great to know what's going on under the hood.
+- To document my learnings
+- Ultimately, once I'm comfortable enough I'd like to build something useful.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Checklist
+- [x] Initiate React project via Vite
+- [ ] Install dependencies:
+  - [ ] Tailwind
+  - [ ] React Router Dom
+  - [ ] Implement Blog, for now it'll be hard coded but I'll explore some other options like Markdown `vite-plugin-mdx`
