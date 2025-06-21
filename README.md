@@ -15,7 +15,7 @@ My primary goals:
 
 ## Checklist
 - [x] Initiate React project via Vite
-- [ ] Learn React
+- [ ] Learn Basic React
   - [x] Basic principles
   - [x] Folder structures
   - [ ] Components and Props 👈 I am currently here!
