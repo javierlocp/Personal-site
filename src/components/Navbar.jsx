@@ -1,6 +1,6 @@
-// Header Component
+// Navbar Component
 
-const Header = () => {
+const Navbar = () => {
   return(
     <header>
       <a href="#">Javier Lo</a>
@@ -13,4 +13,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Navbar
