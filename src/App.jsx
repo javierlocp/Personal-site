@@ -1,15 +1,11 @@
-import Navbar from "./components/Navbar"
-import Footer from "./components/Footer"
+import MainLayout from "./layouts/MainLayout";
 
 function App() {
   return (
-    // App is where everything lives
-    <>
-      <Navbar />
+    <MainLayout>
       <h1>Welcome to my personal site</h1>
-      <p>This is my first react app!</p>
-      <Footer />
-    </>
+      <p>This is my first React app!</p>
+    </MainLayout>
   )
 }
 
