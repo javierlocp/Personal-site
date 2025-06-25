@@ -9,7 +9,7 @@ import Footer from "../components/Footer"
 const MainLayout = ({ children }) => {
   return (
     <>
-      <div className = "container">
+      <div className="flex flex-col justify-center py-12 max-w-[600px] mx-auto">
         <Navbar />
         <main>
           {children}
