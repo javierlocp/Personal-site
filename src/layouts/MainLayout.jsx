@@ -1,5 +1,4 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
+import { Navbar, Footer } from "../components";
 
 /*
   MainLayout is the default layout for this site.
