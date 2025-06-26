@@ -9,10 +9,10 @@ import Footer from "../components/Footer"
 const MainLayout = ({ children }) => {
   return (
     <>
-      <div className="px-6 py-12 max-w-[600px] mx-auto">
+      <div className="overflow-x-hidden px-6 py-12 max-w-[500px] mx-auto">
         <Navbar />
         <main>
-          {children}
+          { children }
         </main>
         <Footer />
       </div>

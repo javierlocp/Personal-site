@@ -10,10 +10,13 @@
     @apply bg-zinc-950
   }
   h1 {
-    @apply text-xl font-bold text-gray-50
+    @apply text-2xl font-bold text-neutral-50
+  }
+  p{
+    @apply text-base text-neutral-400 
   }
   a{
-    @apply hover:text-neutral-50 text-neutral-500
+    @apply hover:text-neutral-50 text-neutral-400
   }
 }
 

@@ -4,11 +4,12 @@ import ExternalLink from "./ExternalLink";
 const Footer = () => {
   return (
     <footer className="my-10">
-      <div className="my-8">
-        <h2 className="mb-3.5 text-gray-50 text-2xl font-bold">Colophon</h2>
-        <p className="text-sm text-neutral-400">Design and code by Javier Lo. <br></br> Source Code on <ExternalLink href="https://github.com/javierlocp/j6o-site">Github</ExternalLink></p>
+      <div className="flex flex-col gap-2 mb-6">
+        <h2 className="text-gray-50 text-xl font-bold">Colophon</h2>
+        <p className="text-sm text-neutral-400">Design and code by Javier Lo. <br></br> 
+        View source code on <ExternalLink href="https://github.com/javierlocp/j6o-site" className="underline decoration-wavy decoration-0 underline-offset-2 hover:text-neutral-50">Github</ExternalLink></p>
       </div>
-      <p className="text-neutral-400 text-sm">© {new Date().getFullYear()}</p>
+      <p className="text-sm">© {new Date().getFullYear()}</p>
     </footer>
   );
 };
