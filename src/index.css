@@ -1,13 +1,19 @@
 @import "tailwindcss";
 
-
-body{
-  @apply bg-gray-950
+@theme{
+  /* This is where the theme goes */
 }
 
+
 @layer base {
+  body{
+    @apply bg-zinc-950
+  }
   h1 {
     @apply text-xl font-bold text-gray-50
+  }
+  a{
+    @apply hover:text-neutral-50 text-neutral-500
   }
 }
 
@@ -15,8 +21,4 @@ body{
   .blog-post{
     @apply bg-neutral-100
   }
-}
-
-@theme{
-  /* This is where the theme goes */
 }
