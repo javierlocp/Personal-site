@@ -22,11 +22,12 @@ My primary goals:
 - [ ] Learn Basic React
   - [x] Basic principles
   - [x] Folder structures
-  - [ ] Components and Props 👈 I am currently here!
+  - [ ] Components and Props 👈 I am currently here! (This shit is hard!)
   - [ ] Best practices
 
 - [x] Install dependencies:
   - [x] Tailwind
+  - [x] Install Tailwind Prettier
   - [x] React Router Dom
   - [x] Implement Blog:
     - [x] Setup blog index page routes - Hard coded content for now
