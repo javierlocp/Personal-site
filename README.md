@@ -22,7 +22,7 @@ My primary goals:
 - [ ] Learn Basic React
   - [x] Basic principles
   - [x] Folder structures
-  - [ ] Components and Props 👈 I am currently here! (This shit is hard!)
+  - [ ] Components and Props 👈 ~~I am currently here!~~ 😩This s@!t is hard!
   - [ ] Best practices
 
 - [x] Install dependencies:
@@ -31,6 +31,9 @@ My primary goals:
   - [x] React Router Dom
   - [x] Implement Blog:
     - [x] Setup blog index page routes - Hard coded content for now
+    - [x] Setup blogpost page routing
+    - [x] Create post.js schema
+    - [x] Style blogpost page
     - [ ] Create Blog post card component
     - [ ] Create BlogPreview component and add it to Home
     - [ ] Explore options like Markdown `vite-plugin-mdx`
