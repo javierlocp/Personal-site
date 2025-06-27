@@ -1,18 +1,19 @@
-// Navbar Component
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   return(
     <header className="flex justify-between mb-32 items-center">
       <div className="flex flex-col">
-        <a href="#" className="text-neutral-50">Javier Lo</a>
+        <Link to="/" className="text-neutral-50 font-semibold">Javier Lo</Link>
         <span className="text-neutral-500">Product Design Leader</span>
       </div>      
-      <ul className="flex gap-6 text-sm">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Writing</a></li>
-      </ul>
+      <nav className="flex gap-4 text-sm">
+        <Link to="/">Home</Link>
+        <Link to="/blog">Writings</Link>
+      </nav>
     </header>
   )
 }
 
-export default Navbar
+export default Navbar;

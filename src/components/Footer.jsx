@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col gap-2 mb-6">
         <h2 className="text-gray-50 text-xl font-bold">Colophon</h2>
         <p className="text-sm text-neutral-400">Design and code by Javier Lo. <br></br> 
-        View source code on <ExternalLink href="https://github.com/javierlocp/j6o-site" className="underline decoration-wavy decoration-0 underline-offset-2 hover:text-neutral-50">Github</ExternalLink></p>
+        Check it out on <ExternalLink href="https://github.com/javierlocp/j6o-site" className="underline decoration-wavy decoration-0 underline-offset-2 hover:text-neutral-50">Github</ExternalLink></p>
       </div>
       <p className="text-sm">© {new Date().getFullYear()}</p>
     </footer>
