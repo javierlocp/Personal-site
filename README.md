@@ -20,7 +20,12 @@ My primary goals:
   - [x] Folder structures
   - [ ] Components and Props 👈 I am currently here!
   - [ ] Best practices
+
 - [x] Install dependencies:
   - [x] Tailwind
-  - [ ] React Router Dom
-  - [ ] Implement Blog, for now it'll be hard coded but I'll explore some other options like Markdown `vite-plugin-mdx`
+  - [x] React Router Dom
+  - [x] Implement Blog:
+    - [x] Setup blog index page routes - Hard coded content for now
+    - [ ] Create Blog post card component
+    - [ ] Create BlogPreview component and add it to Home
+    - [ ] Explore options like Markdown `vite-plugin-mdx`
