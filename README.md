@@ -28,12 +28,12 @@ My primary goals:
 - [x] Install dependencies:
   - [x] Tailwind
   - [x] Install Tailwind Prettier
-  - [x] React Router Dom
+  - [x] React Router Dom - handles page routing for react
   - [x] Implement Blog:
     - [x] Setup blog index page routes - Hard coded content for now
     - [x] Setup blogpost page routing
     - [x] Create post.js schema
     - [x] Style blogpost page
-    - [ ] Create Blog post card component
-    - [ ] Create BlogPreview component and add it to Home
-    - [ ] Explore options like Markdown `vite-plugin-mdx`
+    - [ ] Create BlogPreview component
+    - [ ] Display BlogPreview component and add it to Home
+    - [x] Explore options like Markdown `vite-plugin-mdx` I've decided to use `react-markdown` for now.
