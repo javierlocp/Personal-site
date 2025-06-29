@@ -43,10 +43,7 @@ const BlogPost = () => {
         <h1>{post.title}</h1>
         <p className="text-pretty">{post.description}</p>
       </div>
-      <div className="my-12 text-sm text-neutral-400">
-        <img src="https://placehold.co/600x400" alt="" />
-        {post.image && <img src={post.image} alt={post.title} className="mb-6 h-auto w-full rounded-md" />}
-      </div>
+      <div className="my-12 text-sm text-neutral-400">{post.image && <img src={post.image} alt={post.title} className="mb-6 h-auto w-full rounded-md" />}</div>
       <div className="md-content-style">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>
