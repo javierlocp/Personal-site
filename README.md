@@ -34,6 +34,7 @@ My primary goals:
     - [x] Setup blogpost page routing
     - [x] Create post.js schema
     - [x] Style blogpost page
-    - [ ] Create BlogPreview component
-    - [ ] Display BlogPreview component and add it to Home
+    - [x] Create BlogPreview component
+    - [x] Display BlogPreview component and add it to Home page
+      - Notes: Added sorting logic to BlogPreview and Blog page, each handles the logic separately for now
     - [x] Explore options like Markdown `vite-plugin-mdx` I've decided to use `react-markdown` for now.
