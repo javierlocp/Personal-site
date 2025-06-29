@@ -5,7 +5,7 @@ Below are the tech stack used for this site. Note that TypeScript is not used as
 - Vite
 - React
 - JavaScript
-- Tailwind
+- TailwindCss
 
 ## Goals
 
@@ -25,16 +25,38 @@ My primary goals:
   - [ ] Components and Props 👈 ~~I am currently here!~~ 😩This s@!t is hard!
   - [ ] Best practices
 
-- [x] Install dependencies:
+- Dependencies:
   - [x] Tailwind
   - [x] Install Tailwind Prettier
   - [x] React Router Dom - handles page routing for react
-  - [x] Implement Blog:
-    - [x] Setup blog index page routes - Hard coded content for now
-    - [x] Setup blogpost page routing
-    - [x] Create post.js schema
-    - [x] Style blogpost page
-    - [x] Create BlogPreview component
-    - [x] Display BlogPreview component and add it to Home page
-      - Notes: Added sorting logic to BlogPreview and Blog page, each handles the logic separately for now
-    - [x] Explore options like Markdown `vite-plugin-mdx` I've decided to use `react-markdown` for now.
+  - [x] React-Markdown plugins
+
+## Todo List:
+
+Blog
+
+- [x] Setup blog index page routes - Hard coded content for now
+- [x] Setup blogpost page routing
+- [x] Create post.js schema
+- [x] Explore options like Markdown `vite-plugin-mdx` I've decided to use `react-markdown` for now.
+- [x] Blog page with full Markdown rendering via `react-markdown`
+- [x] Style blogpost page
+- [x] Create BlogPreview component
+- [x] Display BlogPreview component and add it to Home page
+- [ ] Extract blog post sort logic into a utility function
+- [ ] Syntax Highlighting?
+- [ ] Decide between `markdown` vs CMS long-term
+
+Project Showcase
+
+- [ ] Project Page
+- [ ] ProjectPreview component
+
+Newsletter
+
+- [ ] Investigate Newsletter Feature
+
+About Page (Optional)
+
+- [] Design
+- [] Create About Page
