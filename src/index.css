@@ -1,26 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @import 'tailwindcss';
 
 @theme {
   /* This is where the theme goes */
+  /* Custom font theme */
+  --font-inter: 'Inter', system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-jetbrains-mono: 'JetBrains Mono', monospace;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
 @layer base {
   body {
-    @apply bg-stone-950;
+    @apply bg-stone-950 text-neutral-400 antialiased;
   }
   h1 {
-    @apply text-2xl font-bold text-neutral-50;
+    @apply text-2xl font-semibold text-neutral-50;
   }
   p {
-    @apply text-base text-neutral-400;
+    @apply text-base antialiased;
   }
   a {
-    @apply text-neutral-400 hover:text-neutral-50;
+    @applyantialiased hover:text-neutral-50;
   }
-}
 
-@layer component {
-  .blog-post {
-    @apply bg-neutral-100;
+  .md-content-style {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply mt-12 mb-4;
+    }
+
+    code {
+      @apply rounded-md border border-neutral-950 bg-neutral-800 px-1 py-0.5 font-mono text-xs font-medium;
+    }
+
+    h2 {
+      @apply text-xl font-semibold text-neutral-50;
+    }
+
+    p {
+      @apply mb-8;
+    }
+
+    hr {
+      @apply max-w-4 bg-stone-50/5;
+    }
   }
 }

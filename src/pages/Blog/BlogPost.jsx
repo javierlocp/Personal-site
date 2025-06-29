@@ -1,9 +1,27 @@
 import { useParams } from 'react-router-dom';
 import { posts } from '../../data/posts';
+import { useEffect, useState } from 'react';
+import ReactMarkdown from 'react-markdown';
+
+const markdownFiles = import.meta.glob('/src/posts/*.md', { as: 'raw' });
 
 const BlogPost = () => {
   const { slug } = useParams();
   const post = posts.find((p) => p.slug === slug);
+  const [content, setContent] = useState('');
+
+  useEffect(() => {
+    const loadMarkdown = async () => {
+      const matchKey = Object.keys(markdownFiles).find((key) => key.endsWith(`${slug}.md`));
+
+      if (matchKey) {
+        const mod = await markdownFiles[matchKey]();
+        setContent(mod);
+      }
+    };
+
+    loadMarkdown();
+  }, [slug]);
 
   // Check if post exist
   if (!post) {
@@ -29,12 +47,8 @@ const BlogPost = () => {
         <img src="https://placehold.co/600x400" alt="" />
         {post.image && <img src={post.image} alt={post.title} className="mb-6 h-auto w-full rounded-md" />}
       </div>
-      <div>
-        {post.content.map((paragraph, idx) => (
-          <p key={idx} className="mt-4 text-neutral-100">
-            {paragraph}
-          </p>
-        ))}
+      <div className="md-content-style">
+        <ReactMarkdown>{content}</ReactMarkdown>
       </div>
     </article>
   );
