@@ -1,6 +1,6 @@
 I recently decided to redesign this site after nearly a decade of dormancy — not just for the sake of aesthetics, but as a way to reconnect with my roots and rethink my trajectory. My original plan for this first post was to write a deep dive into the how, why, and what behind the redesign.
 
-But as I started outlining that draft, I stumbled upon a word that stuck with me: _**Vestigia**_ — Latin for footprints, traces, and tracks. It felt like the perfect metaphor for this site, and maybe even for how I've navigated my career.
+But as I started outlining that draft, I stumbled upon a word that stuck with me: **_Vestigia_** — Latin for footprints, traces, and tracks. It felt like the perfect metaphor for this site, and maybe even for how I've navigated my career.
 
 Since I couldn't get that word out of my head (and because this redesign is a pretty big milestone for me), I decided to save the deep dive for another day. Today, I'd like to share my journey — and how I got here.
 
@@ -36,12 +36,12 @@ This redesign is a reflection of that journey and a reminder of how much I still
 
 Here, you'll find a collection of notes, fragments, and breadcrumbs on design, technology, and the strange joy of figuring things out.
 
-A trail of thoughts, lessons, and half-figured experiments I've left behind (and sometimes returned to). Vestigia, if you will.
+A trail of thoughts, lessons, and half-figured experiments I've left behind (and sometimes returned to). **_Vestigia_**, if you will.
 
 As part of that learning and experimentation, I decided to code this site from scratch (okay, not entirely from scratch — I used Vite and React). I'll share a deep dive on that later. I promise!
 
-That said, I still haven't figured out how to code an email subscription system from scratch. I'm currently weighing different API options. In the meantime, feel free to drop me a message at [hello@javierlo.com](mailto:hello@javierlo.com).
-
-Thanks for visiting my corner of the internet. If any of this resonates, stick around — there's more ahead.
+That said, I still haven't figured out how to build an email subscription system from scratch. I'm currently weighing different API options. In the meantime, feel free to drop me a message at [**hello@javierlo.com**](mailto:hello@javierlo.com).
 
 ---
+
+Thanks for visiting my corner of the internet. If any of this resonates, stick around — there's more ahead.

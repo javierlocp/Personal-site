@@ -50,7 +50,7 @@
     }
 
     hr {
-      @apply max-w-4 bg-stone-50/5;
+      @apply my-8 max-w-4 bg-stone-50/5;
     }
   }
 }
