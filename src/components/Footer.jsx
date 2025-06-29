@@ -3,7 +3,7 @@ import ExternalLink from './ExternalLink';
 // This is written in arrow function
 const Footer = () => {
   return (
-    <footer className="my-15">
+    <footer className="mt-40">
       <div className="mb-6 flex flex-col gap-2">
         <h2 className="text-base text-gray-50">Colophon</h2>
         <p className="text-sm text-neutral-400">
