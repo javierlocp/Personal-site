@@ -36,7 +36,7 @@ const BlogPreview = () => {
             ))}
         </ul>
 
-        <Link to="/blog" aria-label="Read all blog posts" className="mt-6 inline-block underline decoration-wavy decoration-0 underline-offset-2 hover:text-neutral-50">
+        <Link to="/blog" aria-label="Read all blog posts" className="mt-2 inline-block text-sm underline decoration-wavy decoration-0 underline-offset-2 hover:text-neutral-50">
           Read All
         </Link>
       </section>

@@ -2,3 +2,4 @@
 export { default as Navbar } from './Navbar';
 export { default as Footer } from './Footer';
 export { default as ExternalLink } from './ExternalLink';
+export { default as BlogPreview } from './BlogPreview';
