@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <>
       <div className="mb-12 flex flex-col gap-1">
-        <h1 className="text-neutral-50">Vestigia</h1>
+        <h1 className="text-base font-bold text-neutral-50">Vestigia</h1>
         <p className="text-neutral-400">My notes on design, tech, and the strange joy of figuring things out.</p>
       </div>
       <ul>
