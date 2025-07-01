@@ -25,7 +25,7 @@ My primary goals:
   - [ ] Components and Props 👈 ~~I am currently here!~~ 😩This s@!t is hard!
   - [ ] Best practices
 
-- Dependencies:
+- Tech Stack (Highlevel):
   - [x] Tailwind
   - [x] Install Tailwind Prettier
   - [x] React Router Dom - handles page routing for react
