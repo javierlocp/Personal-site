@@ -9,7 +9,7 @@ const Footer = () => {
         <p className="text-sm text-neutral-400">
           Design and code by Javier Lo. <br></br>
           Check it out on{' '}
-          <ExternalLink href="https://github.com/javierlocp/j6o-site" className="underline decoration-wavy decoration-0 underline-offset-2 hover:text-neutral-50">
+          <ExternalLink className="underline" href="https://github.com/javierlocp/j6o-site">
             Github
           </ExternalLink>
         </p>
