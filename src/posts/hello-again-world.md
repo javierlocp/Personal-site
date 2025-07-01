@@ -1,3 +1,13 @@
+---
+title: Hello Again, World
+slug: hello-again-world
+date: 2025-06-30
+description: A reflection on my journey as a product designer and the path forward
+image: /blog/test.png
+readingTime: 4
+tags: ['design', 'process', 'lessons']
+---
+
 I recently decided to redesign this site after nearly a decade of dormancy — not just for the sake of aesthetics, but as a way to reconnect with my roots and rethink my trajectory. My original plan for this first post was to write a deep dive into the how, why, and what behind the redesign.
 
 But as I started outlining that draft, I stumbled upon a word that stuck with me: **_Vestigia_** — Latin for footprints, traces, and tracks. It felt like the perfect metaphor for this site, and maybe even for how I've navigated my career.

@@ -1,22 +1,28 @@
 import { useParams } from 'react-router-dom';
-import { posts } from '../../data/posts';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import matter from 'gray-matter';
 
-const markdownFiles = import.meta.glob('/src/posts/*.md', { as: 'raw' });
+const markdownFiles = import.meta.glob('../../posts/*.md', {
+  query: '?raw',
+  import: 'default',
+});
 
 const BlogPost = () => {
   const { slug } = useParams();
-  const post = posts.find((p) => p.slug === slug);
   const [content, setContent] = useState('');
+  const [post, setPost] = useState(null);
 
   useEffect(() => {
     const loadMarkdown = async () => {
       const matchKey = Object.keys(markdownFiles).find((key) => key.endsWith(`${slug}.md`));
-
       if (matchKey) {
-        const mod = await markdownFiles[matchKey]();
-        setContent(mod);
+        const rawMarkdown = await markdownFiles[matchKey]();
+        const { data, content } = matter(rawMarkdown);
+        setPost(data); // frontmatter (e.g., title, date)
+        setContent(content); // markdown content
+      } else {
+        setPost(null);
       }
     };
 
@@ -43,7 +49,7 @@ const BlogPost = () => {
         <h1>{post.title}</h1>
         <p className="text-pretty">{post.description}</p>
       </div>
-      <div className="my-12 text-sm text-neutral-400">{post.image && <img src={post.image} alt={post.title} className="mb-6 h-auto w-full rounded-md" />}</div>
+      <div className="my-12 text-sm text-neutral-400">{post.image && <img src={post.image} alt={post.title} className="mb-6 h-auto w-full rounded-md" loading="lazy" />}</div>
       <div className="md-content-style">
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>
