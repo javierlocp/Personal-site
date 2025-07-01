@@ -33,6 +33,10 @@ My primary goals:
 
 ## Todo List:
 
+General
+
+- [ ] Add LinkedIn and Email
+
 Blog
 
 - [x] Setup blog index page routes - Hard coded content for now
@@ -43,9 +47,13 @@ Blog
 - [x] Style blogpost page
 - [x] Create BlogPreview component
 - [x] Display BlogPreview component and add it to Home page
-- [ ] Extract blog post sort logic into a utility function
-- [ ] Syntax Highlighting?
-- [ ] Decide between `markdown` vs CMS long-term
+- [x] Extract blog post sort logic into a utility function
+- [x] Install `gray-matter` to parse front-matter from \*.md files
+- [x] Install nodePolyfills due to Buffer not being supported in Vite + React [Read Here](https://www.npmjs.com/package/vite-plugin-node-polyfills)
+- [ ] Loading states for blog fetch
+
+- [ ] Syntax Highlighting
+- [ ] Long term CMS options?
 
 Project Showcase
 
@@ -58,5 +66,4 @@ Newsletter
 
 About Page (Optional)
 
-- [] Design
-- [] Create About Page
+- [ ] Create About Page
