@@ -38,7 +38,7 @@
     }
 
     code {
-      @apply rounded-md border border-neutral-950 bg-neutral-800 px-1 py-0.5 font-mono text-xs font-medium;
+      @apply rounded-md border border-neutral-950 bg-neutral-800 px-1.5 py-0.5 font-mono text-xs font-medium text-neutral-50;
     }
 
     h2 {

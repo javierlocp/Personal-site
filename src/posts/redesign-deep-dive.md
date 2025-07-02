@@ -7,5 +7,3 @@ image: null
 readingTime: 4
 tags: ['design', 'process', 'lessons']
 ---
-
-Hello there, as promised this will be a deep dive on this website redesign.

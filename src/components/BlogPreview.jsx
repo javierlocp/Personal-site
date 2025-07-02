@@ -12,9 +12,9 @@ const BlogPreview = () => {
 
   return (
     <>
-      <section aria-label="Blog Preview">
+      <section aria-label="Blog Preview" className="mb-20">
         <div className="mb-4 flex flex-col gap-1">
-          <h2 className="text-base text-neutral-50">From the blog</h2>
+          <h2 className="text-base text-neutral-50">Writing</h2>
         </div>
         <ul>
           {posts.map((post) => (

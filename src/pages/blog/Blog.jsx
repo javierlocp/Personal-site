@@ -12,7 +12,7 @@ const Blog = () => {
   return (
     <>
       <div className="intro mb-22 flex flex-col gap-4">
-        <h1 className="text-pretty">Vestigia</h1>
+        <h1 className="text-pretty">Writing</h1>
         <p>My notes on design, tech, and the strange joy of figuring things out.</p>
       </div>
 
