@@ -37,6 +37,10 @@
       @apply mt-12 mb-4;
     }
 
+    a {
+      @apply inline-block underline decoration-wavy decoration-0 underline-offset-2 after:content-['_↗︎'] hover:text-neutral-50 hover:underline;
+    }
+
     ol {
       @apply list-inside list-decimal;
     }

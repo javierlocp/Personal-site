@@ -4,15 +4,26 @@ import ExternalLink from './ExternalLink';
 const Footer = () => {
   return (
     <footer className="mt-40">
-      <div className="mb-6 flex flex-col gap-2">
-        <h2 className="text-base text-gray-50">Colophon</h2>
-        <p className="text-sm text-neutral-400">
-          Design and code by Javier Lo. <br></br>
-          Check it out on{' '}
-          <ExternalLink className="underline" href="https://github.com/javierlocp/j6o-site">
-            Github
-          </ExternalLink>
-        </p>
+      <div className="mb-6 flex flex-col">
+        <h2 className="mb-2 text-base text-gray-50">Colophon</h2>
+        <div className="flex flex-col justify-between md:flex-row">
+          <p className="mb-6 text-sm leading-6 text-neutral-400">
+            Design and code by Javier Lo. <br />
+            Source code at{' '}
+            <ExternalLink className="text-sm text-neutral-400" href="https://github.com/javierlocp/j6o-site">
+              Github
+            </ExternalLink>
+          </p>
+
+          <p className="flex flex-col gap-1">
+            <ExternalLink className="text-sm text-neutral-400 md:self-end" href="mailto:hello@javierlo.com">
+              hello@javierlo.com
+            </ExternalLink>
+            <ExternalLink className="text-sm text-neutral-400 md:self-end" href="https://www.linkedin.com/in/javierlo">
+              LinkedIn
+            </ExternalLink>
+          </p>
+        </div>
       </div>
       <p className="text-sm">© {new Date().getFullYear()}</p>
     </footer>

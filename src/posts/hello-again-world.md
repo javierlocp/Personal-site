@@ -8,15 +8,15 @@ readingTime: 4
 tags: ['design', 'process', 'lessons']
 ---
 
-I recently decided to redesign this site after nearly a decade of dormancy — not just for the sake of aesthetics, but as a way to reconnect with my roots and rethink my trajectory.
+I've decided to redesign this site after nearly a decade of dormancy — not just for the sake of aesthetics, but as a way to reconnect with my roots and rethink my trajectory.
 
-My original plan was to nerd out about fonts and framework... until I stumbled upon a word that stuck with me: **_Vestigia_** — Latin for footprints, traces, and tracks. It felt like the perfect metaphor for this site, and maybe even for how I've navigated my career.
+My original plan was to nerd out about fonts and framework... until I stumbled upon a word that stuck with me: **_Vestigia_** — Latin for footprints and traces. It felt like the perfect metaphor for this site, and maybe even for how I've navigated my career.
 
 It hit deeper than expected. So instead of a breakdown of design choices, here’s the story that led me here.
 
 ## The Beginning
 
-I'm from a small town called Ranau, tucked away in North Borneo, Malaysia. The local economy runs on agriculture and petroleum. Technology wasn’t part of daily life — computers were rare, and the internet showed up late. (Yeah, it took its sweet time.)
+I'm from a small town called [Ranau](https://maps.app.goo.gl/SQXo5hndtQt5dUYw9), located somewhere in North Borneo, Malaysia. The local economy runs on agriculture and petroleum. Technology wasn’t part of daily life — computers were rare, and the internet showed up late. (Yeah, it took its sweet time.)
 
 As you can probably guess, design or tech wasn’t part of the plan at all.
 
