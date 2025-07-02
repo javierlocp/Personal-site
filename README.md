@@ -58,7 +58,7 @@ Blog
 Project Showcase
 
 - [ ] Project Page
-- [ ] ProjectPreview component
+- [x] ProjectPreview component
 
 Newsletter
 

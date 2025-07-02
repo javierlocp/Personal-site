@@ -13,7 +13,7 @@ const Blog = () => {
     <>
       <div className="intro mb-22 flex flex-col gap-4">
         <h1 className="text-pretty">Writing</h1>
-        <p>My notes on design, tech, and the strange joy of figuring things out.</p>
+        <p>A collection of notes, code snippets, and loosely formed ideas on design, tech, and the process of figuring things out.</p>
       </div>
 
       <ul>

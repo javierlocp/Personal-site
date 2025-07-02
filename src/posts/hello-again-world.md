@@ -46,7 +46,7 @@ Fast forward to today: I’ve designed across industries — from travel and fin
 
 I’m still here, still building, still learning — and, yes, finally learning to code.
 
-What you’ll find here are notes, fragments, and half-figured ideas on design, technology, and the weird joy of figuring things out in public — a trail of experiments I’ve left behind (and sometimes circled back to). **_Vestigia_**, if you will.
+What you’ll find here are notes, fragments, and half-figured ideas on design, technology, and the weird joy of figuring things out — a trail of experiments I’ve left behind (and sometimes circled back to). **_Vestigia_**, if you will.
 
 As part of that ongoing learning, I decided to code this site from scratch (okay, not entirely from scratch — I used Vite and React). I’ll share a deep dive on that soon. Promise.
 
