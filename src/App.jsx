@@ -3,6 +3,9 @@ import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import Blog from './pages/blog/Blog';
 import BlogPost from './pages/blog/BlogPost';
+import { inject } from '@vercel/analytics';
+
+inject();
 
 function App() {
   return (
