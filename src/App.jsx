@@ -4,8 +4,7 @@ import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import Blog from './pages/blog/Blog';
 import BlogPost from './pages/blog/BlogPost';
-
-// import { inject } from '@vercel/analytics';
+import { inject } from '@vercel/analytics';
 function useUmamiPageView() {
   const location = useLocation();
 
@@ -16,7 +15,7 @@ function useUmamiPageView() {
   }, [location]);
 }
 
-// inject();
+inject();
 
 function App() {
   useUmamiPageView();
