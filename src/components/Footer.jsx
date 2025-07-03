@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import ExternalLink from './ExternalLink';
 // Footer Component
 // This is written in arrow function
@@ -21,6 +22,9 @@ const Footer = () => {
             </ExternalLink>
             <ExternalLink className="text-sm text-neutral-400 md:self-end" href="https://www.linkedin.com/in/javierlo">
               LinkedIn
+            </ExternalLink>
+            <ExternalLink className="text-sm text-neutral-400 md:self-end" href="/public-key.txt">
+              My GPG Pub Key
             </ExternalLink>
           </p>
         </div>
