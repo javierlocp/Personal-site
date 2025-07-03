@@ -14,7 +14,7 @@ tags: ['design', 'process', 'fragments']
 2. Detailed case studies
 3. Syntax highligter - consider moving to `.mdx`
 4. Playground blocks for `code`
-5. Move this
+5. Move this post to a separate Changelog page 😀
 
 ## Nice to have
 
