@@ -8,8 +8,8 @@ const ProjectPreview = () => {
         <div className="mb-4 flex flex-col gap-1">
           <h2 className="text-base text-neutral-50">Projects</h2>
           <p className="mb-4">
-            This site is an ongoing experiment, so things <span className="text-neutral-400 line-through decoration-1">might</span> will break. Feel free to reach out at{' '}
-            <ExternalLink href="mailto:hello@javierlo.com">hello@javierlo.com</ExternalLink> or <ExternalLink href="https://www.linkedin.com/in/javierlo">LinkedIn</ExternalLink> for case studies.
+            This site is an ongoing experiment, so things <span className="text-neutral-400 line-through decoration-1">might</span> will break. Feel free to reach out via{' '}
+            <ExternalLink href="mailto:hello@javierlo.com">Email</ExternalLink> or <ExternalLink href="https://www.linkedin.com/in/javierlo">LinkedIn</ExternalLink> for case studies.
           </p>
         </div>
         <div className="flex flex-col justify-between gap-4 md:flex-row">
