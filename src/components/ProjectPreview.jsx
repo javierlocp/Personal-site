@@ -30,7 +30,7 @@ const ProjectPreview = () => {
 
           <div className="relative overflow-hidden rounded-lg border border-neutral-50/10">
             <img src="/showcase/tr-assets.png" alt="Trulyremote side project" loading="lazy" className="aspect-3/2 w-[100%]" />
-            <div className="absolute inset-x-0 bottom-0 bg-linear-to-b from-neutral-900/0 to-neutral-950 p-2 text-center text-[12px] font-semibold text-neutral-400 italic">Custom Iconography</div>
+            <div className="absolute inset-x-0 bottom-0 bg-linear-to-b from-neutral-900/0 to-neutral-950 p-2 text-center text-[12px] font-semibold text-neutral-400 italic">Custom Icons</div>
           </div>
         </div>
       </section>
