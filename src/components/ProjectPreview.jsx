@@ -24,7 +24,7 @@ const ProjectPreview = () => {
               <img src="/showcase/neptune.png" alt="Neptune App for Solana Riptide 2022" loading="lazy" className="aspect-3/2 w-[100%]" />
             </a>
             <div className="absolute inset-x-0 bottom-0 bg-linear-to-b from-neutral-900/0 to-neutral-950 p-2 text-center text-[12px] font-semibold text-neutral-400 italic">
-              Project Neptune: Solana Riptide 22
+              Neptune App: Solana Riptide 22
             </div>
           </div>
 
