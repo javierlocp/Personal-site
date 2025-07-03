@@ -4,10 +4,20 @@ import Home from './pages/Home';
 import Blog from './pages/blog/Blog';
 import BlogPost from './pages/blog/BlogPost';
 import { inject } from '@vercel/analytics';
-
 inject();
 
+function useUmamiPageView() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (window.umami) {
+      window.umami.track();
+    }
+  }, [location]);
+}
+
 function App() {
+  useUmamiPageView();
   return (
     <MainLayout>
       <Routes>
