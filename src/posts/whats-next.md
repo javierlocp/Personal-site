@@ -31,4 +31,4 @@ tags: ['design', 'process', 'fragments']
 
 ## Closing notes
 
-These are my scrappy notes. Most won’t make much sense and that’s intentional!
+These are my scrappy notes. Most of them won’t make much sense to you — and that’s okay, it’s intentional.
