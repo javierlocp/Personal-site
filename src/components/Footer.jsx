@@ -13,6 +13,10 @@ const Footer = () => {
             Source code at{' '}
             <ExternalLink className="text-sm text-neutral-400" href="https://github.com/javierlocp/j6o-site">
               Github
+            </ExternalLink>{' '}
+            <br />
+            <ExternalLink className="text-sm text-neutral-400" href="/public-key.txt">
+              My GPG Pub Key
             </ExternalLink>
           </p>
 
@@ -22,9 +26,6 @@ const Footer = () => {
             </ExternalLink>
             <ExternalLink className="text-sm text-neutral-400 md:self-end" href="https://www.linkedin.com/in/javierlo">
               LinkedIn
-            </ExternalLink>
-            <ExternalLink className="text-sm text-neutral-400 md:self-end" href="/public-key.txt">
-              My GPG Pub Key
             </ExternalLink>
           </p>
         </div>
