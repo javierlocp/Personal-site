@@ -24,7 +24,7 @@ tags: ['design', 'process', 'fragments']
 - Lightbox - Click / Tap to enlarge image
 - Interactivity / Animations Consider `motion` or `gsap` libraries
 - Consider upgrading the markdown parser to something more _modern_, look at what the current `react-markdown` parser is doing for strikethrough: ~~Sentient AI Agents~~ 😩
-  - Maybe use `rehype-prism`
+- Maybe use `rehype-prism`
 
 ## Writing
 

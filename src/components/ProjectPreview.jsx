@@ -14,7 +14,13 @@ const ProjectPreview = () => {
         </div>
         <div className="flex flex-col justify-between gap-4 md:flex-row">
           <div className="relative overflow-hidden rounded-lg border border-neutral-50/10">
-            <a href="https://solana.com/news/riptide-hackathon-winners-solana" target="_blank" rel="noopener" aria-label="Read more about Solana Riptide 2022" className="hover:animate-pulse">
+            <a
+              href="https://solana.com/news/riptide-hackathon-winners-solana#:~:text=Ottr.Finance-,Neptune,-Nirvana"
+              target="_blank"
+              rel="noopener"
+              aria-label="Read more about Solana Riptide 2022"
+              className="hover:animate-pulse"
+            >
               <img src="/showcase/neptune.png" alt="Neptune App for Solana Riptide 2022" loading="lazy" className="aspect-3/2 w-[100%]" />
             </a>
             <div className="absolute inset-x-0 bottom-0 bg-linear-to-b from-neutral-900/0 to-neutral-950 p-2 text-center text-[12px] font-semibold text-neutral-400 italic">
