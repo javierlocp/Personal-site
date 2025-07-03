@@ -15,6 +15,7 @@ tags: ['design', 'process', 'fragments']
 3. Syntax highligter - consider moving to `.mdx`
 4. Playground blocks for `code`
 5. Move this post to a separate Changelog page 😀
+6. A back to view all post button would be nice
 
 ## Nice to have
 
