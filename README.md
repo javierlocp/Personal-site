@@ -35,7 +35,7 @@ My primary goals:
 
 General
 
-- [ ] Add LinkedIn and Email
+- [x] Add LinkedIn and Email
 
 Blog
 
